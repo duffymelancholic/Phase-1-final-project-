@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Explorer</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Music Explorer</h1>
+    <input type="text" id="searchInput" placeholder="Search for artist or album..." />
+    <button id="searchBtn">Search</button>
+    <button id="reloadBtn">Reload Album</button>
+    <button id="darkModeBtn">🌙</button>
+  </header>
+  <main>
+    <section class="music-list"></section>
+    <aside>
+      <h2>Favorites</h2>
+      <div class="playlist-list"></div>
+    </aside>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
